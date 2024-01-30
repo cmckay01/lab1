@@ -1,9 +1,33 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
     margin-top: 50px;
 }
 
 #controls {
     margin-bottom: 20px;
+    text-align: center; 
+}
+
+#note-map {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+
+#note-map table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+#note-map th, #note-map td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+#note-map th {
+    background-color: #f2f2f2;
+    position: sticky; 
+    top: 0;
 }
